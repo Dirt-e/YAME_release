@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="YAME.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+            <section name="MOTUS.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+    <userSettings>
+        <YAME.Properties.Settings>
+            <setting name="CrashDetector_Threshold_Ax" serializeAs="String">
+                <value>30</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Ay" serializeAs="String">
+                <value>120</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Az" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wx" serializeAs="String">
+                <value>180</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wy" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wz" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaX" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaY" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaZ" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_IsActive" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AlphaCompensation_AlphaZero" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_CompensationPercentage" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_FadeIn_Start" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_FadeIn_Done" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_IsActive" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Filtervariable_Wx_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Wx_HP_LP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="FilterVariable_Wy_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Wy_HP_LP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Wz_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Wz_HP_LP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Ax_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Ax_HP_LP2" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Ay_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Ay_HP_LP2" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Az_HP" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Az_HP_LP2" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Ax_LP3" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Filtervariable_Az_LP3" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="CompressionMethod_Roll_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Yaw_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Pitch_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Surge_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Heave_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Sway_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Pitch_LFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Roll_LFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionParameter_Roll_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Yaw_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Pitch_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Surge_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Heave_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Sway_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Pitch_LFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Roll_LFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionLimit_Roll_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Yaw_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Pitch_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Surge_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Heave_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Sway_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Pitch_LFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Roll_LFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Scaler_Gain_RollHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_YawHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_PitchHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_HeaveHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_SwayHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_RollLFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_PitchLFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_SurgeHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Zeromaker_Zero_RollHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_YawHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_PitchHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_SurgeHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_PitchLFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_HeaveHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_SwayHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_RollLFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Integrator_OffsetPark" serializeAs="String">
+                <value>717</value>
+            </setting>
+            <setting name="Integrator_OffsetPause" serializeAs="String">
+                <value>1021</value>
+            </setting>
+            <setting name="Integrator_OffsetCoR" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Dist_A_Upper" serializeAs="String">
+                <value>1136</value>
+            </setting>
+            <setting name="Dist_B_Upper" serializeAs="String">
+                <value>178</value>
+            </setting>
+            <setting name="Dist_A_Lower" serializeAs="String">
+                <value>110</value>
+            </setting>
+            <setting name="Dist_B_Lower" serializeAs="String">
+                <value>1391</value>
+            </setting>
+            <setting name="Window_RigConfig_Position_X" serializeAs="String">
+                <value>400</value>
+            </setting>
+            <setting name="Window_RigConfig_Position_Y" serializeAs="String">
+                <value>400</value>
+            </setting>
+            <setting name="ActuatorSystem_Stroke" serializeAs="String">
+                <value>520</value>
+            </setting>
+            <setting name="ActuatorSystem_MinLength" serializeAs="String">
+                <value>970</value>
+            </setting>
+            <setting name="Window_RawData_Position_X" serializeAs="String">
+                <value>350</value>
+            </setting>
+            <setting name="Window_RawData_Position_Y" serializeAs="String">
+                <value>350</value>
+            </setting>
+            <setting name="Window_SceneView_Position_X" serializeAs="String">
+                <value>450</value>
+            </setting>
+            <setting name="Window_SceneView_Position_Y" serializeAs="String">
+                <value>450</value>
+            </setting>
+            <setting name="Window_RawData_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_SceneView_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_RigConfig_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_CrashDetector_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_CrashDetector_Position_X" serializeAs="String">
+                <value>50</value>
+            </setting>
+            <setting name="Window_CrashDetector_Position_Y" serializeAs="String">
+                <value>50</value>
+            </setting>
+            <setting name="Window_PositionCorrection_Position_X" serializeAs="String">
+                <value>300</value>
+            </setting>
+            <setting name="Window_PositionCorrection_Position_Y" serializeAs="String">
+                <value>300</value>
+            </setting>
+            <setting name="Window_PositionCorrection_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_Position_X" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_Filters_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_Filters_Position_X" serializeAs="String">
+                <value>150</value>
+            </setting>
+            <setting name="Window_Filters_Position_Y" serializeAs="String">
+                <value>150</value>
+            </setting>
+            <setting name="Window_Graphs_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_Graphs_Position_X" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="Window_Graphs_Position_Y" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="Window_DOFs_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_DOFs_Position_X" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_DOFs_Position_Y" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_MotionControl_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_MotionControl_Position_X" serializeAs="String">
+                <value>250</value>
+            </setting>
+            <setting name="Window_MotionControl_Position_Y" serializeAs="String">
+                <value>250</value>
+            </setting>
+            <setting name="Window_SerialConnection_Position_X" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Window_SerialConnection_Position_Y" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Window_SerialConnection_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SerialTalker_LastUsed_ComPort" serializeAs="String">
+                <value>""</value>
+            </setting>
+            <setting name="Window_Patcher_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_Patcher_Position_X" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_Patcher_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Server_Port_UDP" serializeAs="String">
+                <value>31090</value>
+            </setting>
+            <setting name="Server_DefaulDataString" serializeAs="String">
+                <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9.806,0,0,0,0,nil</value>
+            </setting>
+            <setting name="SplashScreen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Processing_Framerate" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Actuator_TriggerZone" serializeAs="String">
+                <value>0.001</value>
+            </setting>
+            <setting name="SerialTalker_LastUsed_HardwareController" serializeAs="String">
+                <value>Motion4Sim</value>
+            </setting>
+            <setting name="Patcher_FS2020_ExportersFolder" serializeAs="String">
+                <value>\Saved Games\YAME Motion Engine\Exporters</value>
+            </setting>
+            <setting name="Patcher_FS2020_Exporter_exe" serializeAs="String">
+                <value>\FS2020_MotionExporter.exe</value>
+            </setting>
+            <setting name="Patcher_FS2020_STORE_Folder" serializeAs="String">
+                <value>\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache</value>
+            </setting>
+            <setting name="Patcher_FS2020_STEAM_Folder" serializeAs="String">
+                <value>\AppData\Roaming\Microsoft Flight Simulator</value>
+            </setting>
+            <setting name="LoaderSaver_ProfilePath" serializeAs="String">
+                <value>nil</value>
+            </setting>
+            <setting name="Patcher_DCS_YAME" serializeAs="String">
+                <value>\Scripts\Hooks\YAME_Export_Hook.lua</value>
+            </setting>
+            <setting name="Patcher_Xplane_Exporter" serializeAs="String">
+                <value>\XPlane_Motion_Exporter</value>
+            </setting>
+            <setting name="DOF_Override_Range_Roll_HFC" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="DOF_Override_Range_Yaw_HFC" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="DOF_Override_Range_Pitch_HFC" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="DOF_Override_Range_Surge_HFC" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="DOF_Override_Range_Heave_HFC" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="DOF_Override_Range_Sway_HFC" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="DOF_Override_Range_Pitch_LFC" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="DOF_Override_Range_Roll_LFC" serializeAs="String">
+                <value>20</value>
+            </setting>
+            <setting name="Window_ActuatorOverride_Position_X" serializeAs="String">
+                <value>123</value>
+            </setting>
+            <setting name="Window_ActuatorOverride_Position_Y" serializeAs="String">
+                <value>456</value>
+            </setting>
+            <setting name="Window_ActuatorOverride_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </YAME.Properties.Settings>
+        <MOTUS.Properties.Settings>
+            <setting name="CrashDetector_Threshold_Ax" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Ay" serializeAs="String">
+                <value>30</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Az" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wx" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wy" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CrashDetector_Threshold_Wz" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaX" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaY" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_DeltaZ" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="PositionOffsetCorrection_IsActive" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AlphaCompensation_AlphaZero" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_CompensationPercentage" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_FadeIn_Start" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_FadeIn_Done" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AlphaCompensation_IsActive" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Filtervariable_Wx_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Wx_HP_LP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="FilterVariable_Wy_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Wy_HP_LP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Wz_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Wz_HP_LP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Ax_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Ax_HP_LP2" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Ay_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Ay_HP_LP2" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Az_HP" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Az_HP_LP2" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Ax_LP3" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Filtervariable_Az_LP3" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionMethod_Roll_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Yaw_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Pitch_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Surge_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Heave_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Sway_HFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Pitch_LFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionMethod_Roll_LFC" serializeAs="String">
+                <value>None</value>
+            </setting>
+            <setting name="CompressionParameter_Roll_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Yaw_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Pitch_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Surge_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Heave_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Sway_HFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Pitch_LFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionParameter_Roll_LFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CompressionLimit_Roll_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Yaw_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Pitch_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Surge_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Heave_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Sway_HFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Pitch_LFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="CompressionLimit_Roll_LFC" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Scaler_Gain_RollHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_YawHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_PitchHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_HeaveHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_SwayHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_RollLFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_PitchLFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Scaler_Gain_SurgeHFC" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Zeromaker_Zero_RollHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_YawHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_PitchHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_SurgeHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_PitchLFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_HeaveHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_SwayHFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Zeromaker_Zero_RollLFC" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Integrator_OffsetPark" serializeAs="String">
+                <value>500</value>
+            </setting>
+            <setting name="Integrator_OffsetPause" serializeAs="String">
+                <value>850</value>
+            </setting>
+            <setting name="Integrator_OffsetCoR" serializeAs="String">
+                <value>300</value>
+            </setting>
+            <setting name="Dist_A_Upper" serializeAs="String">
+                <value>1000</value>
+            </setting>
+            <setting name="Dist_B_Upper" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Dist_A_Lower" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Dist_B_Lower" serializeAs="String">
+                <value>1000</value>
+            </setting>
+            <setting name="Window_RigConfig_Position_X" serializeAs="String">
+                <value>490</value>
+            </setting>
+            <setting name="Window_RigConfig_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="ActuatorSystem_MaxLength" serializeAs="String">
+                <value>1400</value>
+            </setting>
+            <setting name="ActuatorSystem_MinLength" serializeAs="String">
+                <value>850</value>
+            </setting>
+            <setting name="Window_RawData_Position_X" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_RawData_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_SceneView_Position_X" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_SceneView_Position_Y" serializeAs="String">
+                <value>360</value>
+            </setting>
+            <setting name="Window_RawData_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_SceneView_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_RigConfig_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_CrashDetector_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_CrashDetector_Position_X" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="Window_CrashDetector_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_PositionCorrection_Position_X" serializeAs="String">
+                <value>330</value>
+            </setting>
+            <setting name="Window_PositionCorrection_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_PositionCorrection_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_Position_X" serializeAs="String">
+                <value>330</value>
+            </setting>
+            <setting name="Window_AlphaCompensation_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_Filters_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_Filters_Position_X" serializeAs="String">
+                <value>835</value>
+            </setting>
+            <setting name="Window_Filters_Position_Y" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_Graphs_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_Graphs_Position_X" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_Graphs_Position_Y" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_DOFs_IsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_DOFs_Position_X" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_DOFs_Position_Y" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="Window_MotionControl_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Window_MotionControl_Position_X" serializeAs="String">
+                <value>635</value>
+            </setting>
+            <setting name="Window_MotionControl_Position_Y" serializeAs="String">
+                <value>260</value>
+            </setting>
+            <setting name="Window_SerialConnection_Position_X" serializeAs="String">
+                <value>835</value>
+            </setting>
+            <setting name="Window_SerialConnection_Position_Y" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Window_SerialConnection_IsOpen" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SerialTalker_LastUsedComPort" serializeAs="String">
+                <value>""</value>
+            </setting>
+            <setting name="Version" serializeAs="String">
+                <value>v0.02_alpha_</value>
+            </setting>
+        </MOTUS.Properties.Settings>
+    </userSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
